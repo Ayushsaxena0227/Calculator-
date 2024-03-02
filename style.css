@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/15/20/14/ball-3084696_1280.jpg)
+}
+/* UTILTY CLASSES */
+.text-centre {
+  text-align: center;
+}
+
+.text-white {
+  color: white
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-centre {
+  align-items: center;
+}
+
+.button {
+  padding: 15px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 66px;
+  animation: button 0.8s ease-in-out;
+
+}
+
+@keyframes button {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button:hover {
+  background-color: #17927d;
+  transform: scale(1.1);
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 20px;
+}
